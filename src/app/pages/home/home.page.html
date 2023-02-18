@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color='#145DA0' no-border>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+   
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="title">
+    <h2>Feed Productos</h2>
+
+  </div>
+
+  <div class="event-slider">
+    <ion-list class="default-left-padding">
+      <ion-list>
+        <ion-col class="ion-text-left">
+          <ion-card>
+            <app-cards-productos [info]="productos">       
+            </app-cards-productos>
+           
+            
+          </ion-card>
+        </ion-col>
+      </ion-list>
+     
+    </ion-list>
+  </div>
+
+</ion-content>

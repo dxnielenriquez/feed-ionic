@@ -1,0 +1,42 @@
+<ion-content class="background-image">
+  <ion-header class="ion-no-border">
+    <ion-toolbar color='#145DA0'>
+      <ion-buttons slot="start">
+        <ion-back-button text="Regresar" defaultHref="/home" mode="ios"></ion-back-button>
+
+      </ion-buttons>
+      <ion-title >Perfil</ion-title>
+
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-avatar class="perfil">
+    <img src="assets/img/profile.svg" class="pdf">
+  </ion-avatar>
+
+  <div class="info-perfil">
+    <ion-list>
+      <ion-item>
+        <ion-label>
+       <p></p>
+          <h1>Nombre</h1>
+          <p>{{User}} </p>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          <h1>Correo electrónico</h1>
+          <p>{{Correo}}</p>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          <h1>Telefono</h1>
+          <p>{{telefono}}</p>
+        </ion-label>
+      </ion-item>
+    
+
+    </ion-list>
+  </div>
+</ion-content>
